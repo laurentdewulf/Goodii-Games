@@ -1,0 +1,305 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#101114">
+  <meta name="description" content="GOODII Games creates fun, polished mobile games. Discover Cap Tap and follow our next projects.">
+  <title>GOODII Games — Fuel Your Passion</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Arial, sans-serif;
+      background: #101114;
+      color: #f7f7f8;
+      line-height: 1.6;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .container {
+      width: min(1100px, 90%);
+      margin: 0 auto;
+    }
+
+    header {
+      border-bottom: 1px solid #292a30;
+      background: #101114;
+    }
+
+    nav {
+      min-height: 82px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+    }
+
+    .logo {
+      font-size: 27px;
+      font-weight: 900;
+      letter-spacing: -1.5px;
+    }
+
+    .logo span {
+      color: #ed3c43;
+    }
+
+    .nav-link {
+      color: #c6c6cc;
+      font-size: 14px;
+    }
+
+    .nav-link:hover,
+    footer a:hover {
+      color: #ffffff;
+    }
+
+    .hero {
+      min-height: 490px;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      padding: 80px 0;
+      background:
+        radial-gradient(ellipse at 50% 10%, #29202a 0%, transparent 60%),
+        #101114;
+    }
+
+    .eyebrow {
+      color: #ff6268;
+      text-transform: uppercase;
+      font-size: 12px;
+      font-weight: 800;
+      letter-spacing: 3px;
+      margin-bottom: 20px;
+    }
+
+    h1 {
+      font-size: clamp(42px, 8vw, 76px);
+      line-height: 1.05;
+      letter-spacing: -3px;
+      margin-bottom: 22px;
+    }
+
+    h1 span {
+      color: #ed3c43;
+    }
+
+    .hero p {
+      max-width: 570px;
+      margin: 0 auto;
+      color: #b8b8c1;
+      font-size: 18px;
+    }
+
+    .section {
+      padding: 75px 0;
+    }
+
+    .section-title {
+      font-size: 32px;
+      letter-spacing: -1px;
+      margin-bottom: 12px;
+    }
+
+    .section-intro {
+      color: #aaaab4;
+      margin-bottom: 30px;
+    }
+
+    .game-card {
+      padding: 30px;
+      border: 1px solid #303138;
+      border-radius: 20px;
+      background: linear-gradient(135deg, #1d1e24, #15161a);
+    }
+
+    .game-label {
+      display: inline-block;
+      color: #ff777c;
+      background: #382024;
+      padding: 5px 11px;
+      border-radius: 20px;
+      font-size: 12px;
+      font-weight: 800;
+      margin-bottom: 15px;
+    }
+
+    .game-card h3 {
+      font-size: 28px;
+      margin-bottom: 8px;
+    }
+
+    .game-card p {
+      color: #b8b8c1;
+      max-width: 650px;
+      margin-bottom: 18px;
+    }
+
+    .coming-soon {
+      color: #9b9ba5;
+      font-size: 13px;
+    }
+
+    .about {
+      background: #17181d;
+      border-top: 1px solid #292a30;
+      border-bottom: 1px solid #292a30;
+    }
+
+    .about p {
+      max-width: 700px;
+      color: #b8b8c1;
+      margin-top: 12px;
+    }
+
+    footer {
+      padding: 30px 0;
+      color: #93939d;
+      font-size: 13px;
+    }
+
+    .footer-content {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 18px;
+    }
+
+    .footer-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    footer a {
+      color: #c6c6cc;
+    }
+
+    @media (max-width: 600px) {
+      nav {
+        min-height: 72px;
+      }
+
+      .logo {
+        font-size: 23px;
+      }
+
+      .hero {
+        min-height: 420px;
+        padding: 65px 0;
+      }
+
+      h1 {
+        letter-spacing: -2px;
+      }
+
+      .section {
+        padding: 55px 0;
+      }
+
+      .game-card {
+        padding: 23px;
+      }
+
+      .footer-content {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <nav>
+        <a class="logo" href="index.html" aria-label="GOODII Games home">
+          <span>G</span>OODII GAMES
+        </a>
+        <a class="nav-link" href="#games">Our Games</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <div class="eyebrow">Independent Game Studio</div>
+        <h1>PLAY BIG.<br><span>THINK DIFFERENT.</span></h1>
+        <p>
+          We create mobile gaming experiences built around fun,
+          creativity, and the passion to keep playing.
+        </p>
+      </div>
+    </section>
+
+    <section class="section" id="games">
+      <div class="container">
+        <h2 class="section-title">Our Games</h2>
+        <p class="section-intro">
+          Small studio. Big ideas. More adventures ahead.
+        </p>
+
+        <div class="game-card">
+          <div class="game-label">IN DEVELOPMENT</div>
+          <h3>Cap Tap</h3>
+          <p>
+            Tap, fly, and find your rhythm. Take on obstacles,
+            beat your high score, and make the game your own
+            with collectible caps.
+          </p>
+          <div class="coming-soon">
+            Coming to mobile — more details coming soon.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section about">
+      <div class="container">
+        <h2 class="section-title">Fuel Your Passion.</h2>
+        <p>
+          GOODII Games is building original gaming experiences
+          for players who love a challenge. We're focused on
+          creating games that are easy to pick up, satisfying
+          to master, and fun to return to.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-content">
+      <div>© <span id="year">2026</span> GOODII Games. All rights reserved.</div>
+      <div class="footer-links">
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="terms.html">Terms of Use</a>
+        <a href="support.html">Support</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent =
+      new Date().getFullYear();
+  </script>
+</body>
+</html>
